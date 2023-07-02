@@ -1,3 +1,33 @@
 body{
     background-color:antiquewhite
 }
+
+.welcomeSign{
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    white-space: pre-wrap;
+}
+
+.photoHeadText{
+    text-align: center;
+}
+
+
+.pics_in_a_row {
+    display: flex;
+}
+
+.img1 { flex: 1.3344; }
+.img2 { flex: 1.3345; }
+.img3 { flex: 0.7505; }
+.img4 { flex: 1.5023; }
